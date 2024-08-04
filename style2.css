@@ -73,3 +73,20 @@ header h1 {
     font-size: 1em;
     color: #6c757d;
 }
+/* Media queries para responsividade */
+
+@media(max-width: 768px) {
+    header h1, header nav, header ul, header li {
+        float: inline-end;
+        display: flex;
+        text-align: justify;
+    }
+
+    header {
+        padding-top: 20px;
+    }
+
+    #home, #menu, #abodireitut, #contact {
+        padding-bottom: 10px;
+    }
+}
